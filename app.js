@@ -15,5 +15,5 @@ function drawMSNumbers() {
 }
 
 setInterval(() => {
-  console.table(drawMSNumbers())
+  console.log(drawMSNumbers()) // console.table(drawMSNumbers())
 }, 5000)
